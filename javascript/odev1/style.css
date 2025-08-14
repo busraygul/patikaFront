@@ -1,0 +1,19 @@
+
+body {
+    background-color: gray;
+    color: orange;
+    display: flex;
+    justify-content: center; /* Yatay ortalama */
+    align-items: center;     /* Dikey ortalama */
+    height: 50vh;           /* Sayfa yüksekliğini kapla */
+    margin: 0;               /* Varsayılan boşluğu kaldır */
+    font-size: 25px;
+}
+#time, #day {
+    display: inline-block;
+    margin: 0 5px; /* Aralarında boşluk */
+}
+
+div{
+    text-align: center;
+}
