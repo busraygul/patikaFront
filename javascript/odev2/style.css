@@ -1,0 +1,55 @@
+/* tamamlanan maddelerin görünümü */
+.completed .todo-text {
+  text-decoration: line-through;
+  color: #fff;        /* beyaz yazı */
+  opacity: 0.4;       /* hafif solukluk */
+}
+/* liste öğesine hover efekti */
+.list-group-item:hover {
+  box-shadow: 0 2px 8px rgba(230, 7, 7, 0.15);
+  transform: translateY(-2px); /* hafif yukarı kayma */
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.completed {
+  background-color: #cfd4d2; /* daha açık gri */
+}
+
+/* sayfa beyaz arka plan */
+body {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* ortadaki pencere */
+.app-container {
+  background-color: #fdf4f4; 
+  border-radius: 12px;
+  padding: 50px;
+  margin-top: 3rem;
+  width: 1000px;
+  max-width: 100%;
+  box-shadow: 0 8px 20px rgba(216, 4, 4, 0.15); /* gölge efekti */
+}
+#addBtn{
+  color: #ffffff;
+  background-color: #ec1e0f;
+}
+#addBtn:hover {
+  background-color: #d3180b; /* hover için biraz koyusu */
+}
+
+#name{
+  color: #e70c0c;
+  
+}
+
+
+
+
+
